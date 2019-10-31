@@ -5,7 +5,7 @@
 <p> <a href="secondsite.html">Leaflet</a>  </p>
 <p> <a href="site4.html">Geo Server</a>  </p>
 <p> <a href="http://141.64.197.58:8080/geoserver/UebungGeodatendienste/wms?service=WMS&version=1.1.0&request=GetMap&layers=UebungGeodatendienste%3Aexports_percent_gdp&bbox=-2.0037508342789244E7%2C-7538976.357111711%2C2.0037508380111996E7%2C1.7926778564476732E7&width=768&height=488&srs=EPSG%3A3857&format=application/openlayers">Geo Server Direct</a>  </p>
-<p> <a href="basicOpenLayers.html">basicOpenLayers </a>>  </p>
+<p> <a href="basicOpenLayers.html">basicOpenLayers </a>  </p>
 
 
  [Syntax help](thirdsite.md)  
