@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="http://141.64.204.64:8080/geoserver/openlayers3/ol.css" type="text/css">
+    <link rel="stylesheet" href="http://141.64.197.58:8080/geoserver/openlayers3/ol.css" type="text/css">
     <style>
         .ol-zoom {
           top: 52px;
@@ -128,7 +128,7 @@
             padding: .2em .2em;
         }
     </style>
-    <script src="http://141.64.204.64:8080/geoserver/openlayers3/ol.js" type="text/javascript"></script>
+    <script src="http://141.64.197.58:8080/geoserver/openlayers3/ol.js" type="text/javascript"></script>
     <title>OpenLayers map preview</title>
   </head>
   <body>
@@ -255,10 +255,10 @@
       var untiled = new ol.layer.Image({
         source: new ol.source.ImageWMS({
           ratio: 1,
-          url: 'http://141.64.204.64:8080/geoserver/gdd/wms',
+          url: 'http://141.64.197.58:8080/geoserver/UebungGeodatendienste/wms',
           params: {'FORMAT': format,
                    'VERSION': '1.1.1',  
-                "LAYERS": 'gdd:exports_percent_gdp',
+                "LAYERS": 'UebungGeodatendienste:exports_percent_gdp',
                 "exceptions": 'application/vnd.ogc.se_inimage',
           }
         })
@@ -266,11 +266,11 @@
       var tiled = new ol.layer.Tile({
         visible: false,
         source: new ol.source.TileWMS({
-          url: 'http://141.64.204.64:8080/geoserver/gdd/wms',
+          url: 'http://141.64.197.58:8080/geoserver/UebungGeodatendienste/wms',
           params: {'FORMAT': format, 
                    'VERSION': '1.1.1',
                    tiled: true,
-                "LAYERS": 'gdd:exports_percent_gdp',
+                "LAYERS": 'UebungGeodatendienste:exports_percent_gdp',
                 "exceptions": 'application/vnd.ogc.se_inimage',
              tilesOrigin: -20037508.342789244 + "," + -7538976.357111711
           }
@@ -447,4 +447,3 @@
     </script>
   </body>
 </html>
-
