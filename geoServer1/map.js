@@ -6,7 +6,7 @@ var map = new ol.Map({
           source: new ol.source.TileWMS({
 			
 		
-		url: 'http://localhost:8080/geoserver/UebungGeodatendienste/wms',
+		url: 'http://141.64.199.189:8080/geoserver/UebungGeodatendienste/wms',
 		params: {'LAYERS': 'UebungGeodatendienste:exports_percent_gdp', 'TILED': true},
 		serverType: 'geoserver'
         
