@@ -25,5 +25,20 @@ padding-right: 50px;
 .map {
         height: 100%;
         width: 100%;
+        display: inline-block;
+        float: right;
       }
 
+
+  .legend {
+  	width: 12%;
+  	height: 100%;
+  	float: right;
+  	padding-right: 30px;
+
+  }
+
+#p {
+font-weight: bold;
+font-family: Arial;
+}
